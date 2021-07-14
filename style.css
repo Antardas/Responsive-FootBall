@@ -205,3 +205,52 @@ input[type="checkbox"]{
     width: 567px;
     height: 427px;
 }
+
+
+
+
+
+/* membarship part */
+
+
+
+
+
+.membarship-part{
+    padding: 100px 0;
+}
+.membership-heading {
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 40px;
+    color: #0A0826;
+    margin-left: 10px;
+}
+.membarship{   
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    justify-items: center;    
+}
+.membarship-card {
+    width: 291px;
+    height: 330px;
+    border: 1px solid #D1D1D1;
+}
+.membarship-item-pic img{
+    width: 290px;
+    height: 173px;
+}
+.membarship-dec {
+    padding-left: 5px;
+    color: #6C6C6C;
+}
+.btn-membarship {
+    padding: 8px 24px;
+    color: white;
+    border: 1px solid transparent;
+    background-color: rgba(224, 44, 109, 1);
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 5px;
+    margin-top: 25px;
+}
