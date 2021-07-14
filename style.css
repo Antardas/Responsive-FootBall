@@ -257,8 +257,8 @@ input[type="checkbox"]{
     border-radius: 10px;
 }
 .membership-item-image img{
-    width: 290px;
-    height: 173px;
+    width: 100%;
+    height: auto;
     border-radius: 10px;
 }
 .membership-detail {
