@@ -221,13 +221,13 @@ input[type="checkbox"]{
 
 
 
-/* membarship part */
+/* membership part */
 
 
 
 
 
-.membarship-part{
+.membership-part{
     padding: 100px 0;
 }
 .membership-heading {
@@ -237,12 +237,12 @@ input[type="checkbox"]{
     color: #0A0826;
     margin-left: 10px;
 }
-.membarship{   
+.membership{   
     display: grid;
     grid-template-columns: repeat(4,1fr);
     justify-items: center;
 }
-.membarship-card {
+.membership-card {
     width: 291px;
     min-height: 300px;
     border: 1px solid #D1D1D1;
@@ -250,22 +250,22 @@ input[type="checkbox"]{
     padding: 10px;
     box-sizing: border-box;
 }
-.membarship-title {
+.membership-title {
     min-height: 80px;
 }
-.membarship-item-image {
+.membership-item-image {
     border-radius: 10px;
 }
-.membarship-item-image img{
+.membership-item-image img{
     width: 290px;
     height: 173px;
     border-radius: 10px;
 }
-.membarship-detail {
+.membership-detail {
     padding-left: 5px;
     color: #6C6C6C;
 }
-.btn-membarship {
+.btn-membership {
     padding: 8px 24px;
     color: white;
     border: 1px solid transparent;
@@ -381,7 +381,7 @@ footer p{
     .banner-items {
         padding-top: 30px;
     }
-    .banner-items,.players,.highlight,.membarship,.football-fan {
+    .banner-items,.players,.highlight,.membership,.football-fan {
         width: 100%;
         grid-template-columns: repeat(1,1fr);
         justify-items: center;
@@ -449,7 +449,7 @@ footer p{
     .banner-items {
         padding-top: 40px;
     }
-    .banner-items,.players,.membarship{    
+    .banner-items,.players,.membership{    
         grid-template-columns: repeat(2,1fr);
         justify-items: center;
         grid-row-gap: 24px;  
