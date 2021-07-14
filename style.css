@@ -309,3 +309,37 @@ input[type="checkbox"]{
 
 
 
+/* footer part css */
+
+
+
+
+footer{
+    text-align: center;
+}
+footer img{
+    width: 483px;
+    height: 110px;
+    padding-bottom: 10px;
+}
+.social-icon i {
+    font-size: 22px;
+    color: rgba(150, 155, 171, 1);
+    padding: 14px;
+}
+.social-icon a {
+    background-color: rgba(11, 13, 23, .1);
+    font-size: 28px;
+    border-radius: 50%;
+}
+footer p{
+    margin: 0;
+    padding: 15px 0;
+}
+ 
+
+
+
+
+
+
