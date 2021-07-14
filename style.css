@@ -129,7 +129,7 @@ input[type="checkbox"]{
 
 
 
-/* players section Style */
+/* players Section Style */
 
 
 
@@ -169,4 +169,39 @@ input[type="checkbox"]{
 .player-info{
     color: #6C6C6C;
     font-size: 16px;
+}
+
+
+
+/* highlight part css */
+
+
+
+
+.highlight{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    justify-items: center;
+    padding: 100px 0;
+}
+.highlight-left{
+    width: 469px;
+    height: 309px;
+}
+.hl-title{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+}
+.hl-dec{
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    padding-bottom: 24px;
+}
+
+.highlight-right img{
+    width: 567px;
+    height: 427px;
 }
