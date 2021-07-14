@@ -302,6 +302,11 @@ input[type="checkbox"]{
 }
 .photo { 
     overflow: hidden;
+    border-radius: 10px;
+}
+.fan-favorite .photo img {
+    width: 100%;
+    height: auto;
 }
 .fan-favorite h1 {
         font-weight: 700;
@@ -395,6 +400,9 @@ footer p{
     .banner-left-item{
         width: 300px;
         height: auto;  
+    }
+    .fan-favorite {
+        width: 80%;
     }
     
     .banner-title {
