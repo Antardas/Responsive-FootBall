@@ -413,3 +413,52 @@ footer p{
 
 
 
+/* tablet responsive css  */
+
+
+@media only screen and (min-width:689px) and (max-width:1024px) {
+
+
+    .max-width{
+        width: 100%;
+    }
+    .banner-items,.players,.membarship{    
+        grid-template-columns: repeat(2,1fr);
+        justify-items: center;
+        grid-row-gap: 24px;  
+        width: 100%;
+    }
+    .highlight,.football-fan{    
+        grid-template-columns: repeat(1,1fr);
+        justify-items: center; 
+        grid-row-gap: 24px;   
+    }
+    .highlight-left{
+        margin-bottom: 150px;
+    }
+    .banner-right-item img{
+        width: 300px;
+        height: 256px;  
+        
+    }
+    .banner-left-item{
+        width: 300px;
+        height: auto;  
+    }
+    .banner-title {
+        font-size: 37px;
+        font-weight: 700;
+        color: white;
+        
+    }
+    footer img{
+        width: 250px;
+        height: auto;
+    }
+    .social-icon a{
+        font-size: 22px;
+    }
+    .social-icon i {
+        font-size: 16px;
+        }
+}
