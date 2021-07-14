@@ -65,7 +65,7 @@ input[type="checkbox"]{
     display: none;
 }
 
-/* banner css part */
+/* banner Section Style */
 
 
 .header-banner{
@@ -107,7 +107,14 @@ input[type="checkbox"]{
     height: 438px;    
 } 
 
+
+
+
 /* banner hover Style */
+
+
+
+
 .banner-btn:hover{
     color: rgba(224, 44, 109, 1) ;
     background-color: white;
@@ -117,4 +124,49 @@ input[type="checkbox"]{
 .banner-right-item img:hover{
     transform: translate(5px,-5px);
     transition: transform 0.3s;
+}
+
+
+
+
+/* players section Style */
+
+
+
+
+ .all-players{
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+.players{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    justify-items: center;
+    align-items: center;
+    
+}
+.player{
+    width: 300px;
+    height: 474px;
+    border: 15px solid white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+.player-image img{
+    width: 300px;
+    height: 256px;
+}
+.player-details{
+    width: 300px;
+}
+.player-name{
+    font-size: 28px;
+    color: #18191F;
+}
+.player-info{
+    color: #6C6C6C;
+    font-size: 16px;
 }
